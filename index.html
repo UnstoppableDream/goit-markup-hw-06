@@ -49,7 +49,89 @@
             </li>
           </ul>
         </address>
+        <button 
+        class="hamburger-menu-button"
+        type="button">
+          <svg class="hamburger-menu-icon" width="24" height="24">
+            <use href="./images/icons.svg#"></use>
+          </svg>
+        </button>
       </div>
+      <!-- <div class="hamburger-menu is-open-extend">
+        <button type="button" class="close-button">
+          <svg class="modal-icon-close" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <div class="hamburger-menu-page">
+          <ul class="hamburger-menu-page-list">
+            <li><a href="index.html" class="hamburger-menu-page-link current">Studio</a></li>
+            <li><a href="" class="hamburger-menu-page-link">Portfolio</a></li>
+            <li><a href="" class="hamburger-menu-page-link">Contacts</a></li>
+          </ul>
+        </div>
+        <div>
+          <address class="hamburger-menu-address">
+            <ul class="hamburger-menu-address-list">
+              <li>
+                <a class="hamburger-menu-address-link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com
+                  </a>
+              </li>
+              <li>
+                <a class="hamburger-menu-address-link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a>
+              </li>
+            </ul>
+          </address>
+          <ul class="hamburger-social-list">
+            <li class="hamburger-social-item">
+              <a
+                class="hamburger-social-link"
+                href="https://www.instagram.com/"
+                target="_blank"
+              >
+                <svg class="hamburger-social-icon" width="24" height="24">
+                  <use xlink:href="./images/icons.svg#icon-instagram" />
+                </svg>
+              </a>
+            </li>
+            <li class="hamburger-social-item">
+              <a
+                class="hamburger-social-link"
+                href="https://twitter.com/"
+                target="_blank"
+              >
+                <svg class="hamburger-social-icon" width="24" height="24">
+                  <use xlink:href="./images/icons.svg#icon-x"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="hamburger-social-item">
+              <a
+                class="hamburger-social-link"
+                href="https://www.facebook.com/"
+                target="_blank"
+              >
+                <svg class="hamburger-social-icon" width="24" height="24">
+                  <use xlink:href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="hamburger-social-item">
+              <a
+                class="hamburger-social-link"
+                href="https://www.linkedin.com/"
+                target="_blank"
+              >
+                <svg class="hamburger-social-icon" width="24" height="24">
+                  <use xlink:href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div> -->
     </header>
 
     <main>
@@ -126,9 +208,13 @@
           <ul class="section-third-ul">
             <li class="section-third-list">
               <img
+                class="people-container-img"
+                srcset="
+                  ./images/Mark.jpg 1x, 
+                  ./images/Mark2x.jpg 2x
+                "
                 src="./images/Mark.jpg"
                 alt="The photo shows Mark Guerrero"
-                width="264"
               />
               <div class="people-container">
                 <h3 class="section-third-tone">Mark Guerrero</h3>
@@ -183,9 +269,13 @@
             </li>
             <li class="section-third-list">
               <img
+                class="people-container-img"
+                srcset="
+                  ./images/Ford.jpg 1x, 
+                  ./images/Ford2x.jpg 2x
+                "
                 src="./images/Ford.jpg"
                 alt="The photo shows Tom Ford"
-                width="264"
               />
               <div class="people-container">
                 <h3 class="section-third-tone">Tom Ford</h3>
@@ -240,9 +330,13 @@
             </li>
             <li class="section-third-list">
               <img
+                class="people-container-img"
+                srcset="
+                  ./images/Garcia.jpg 1x, 
+                  ./images/Garcia2x.jpg 2x
+                "
                 src="./images/Garcia.jpg"
                 alt="The photo shows Camila Garcia"
-                width="264"
               />
               <div class="people-container">
                 <h3 class="section-third-tone">Camila Garcia</h3>
@@ -297,9 +391,13 @@
             </li>
             <li class="section-third-list">
               <img
+                class="people-container-img"
+                srcset="
+                  ./images/Wilson.jpg 1x, 
+                  ./images/Wilson.jpg 2x
+                "
                 src="./images/Wilson.jpg"
                 alt="The photo shows Daniel Wilson"
-                width="264"
               />
               <div class="people-container">
                 <h3 class="section-third-tone">Daniel Wilson</h3>
@@ -363,9 +461,9 @@
             <li class="section-forth-list">
               <div class="app-photo">
                 <img
+                  class="app-container-img"
                   src="./images/Bankingapp.jpg"
                   alt="Banking App"
-                  width="360"
                 />
                 <p class="app-overlay">
                   Empower Your Finances &#183; 
@@ -388,9 +486,9 @@
             <li class="section-forth-list">
               <div class="app-photo">
                 <img
+                  class="app-container-img"
                   src="./images/Cashlesspay.jpg"
                   alt="Cashless Payment"
-                  width="360"
                 />
                 <p class="app-overlay">
                   Go Cashless, Go Convenient &#183; 
@@ -412,9 +510,9 @@
             <li class="section-forth-list">
               <div class="app-photo">
                 <img
+                  class="app-container-img"
                   src="./images/Meditationapp.jpg"
                   alt="Meditation App"
-                  width="360"
                 />
                 <p class="app-overlay">
                   Find Your Inner Calm &#183;
@@ -437,9 +535,9 @@
             <li class="section-forth-list">
               <div class="app-photo">
                 <img
+                  class="app-container-img"
                   src="./images/Taxiserice.jpg"
                   alt="Taxi Service"
-                  width="360"
                 />
                 <p class="app-overlay">
                   Ride in Style, Arrive on Time &#183;
@@ -462,9 +560,9 @@
             <li class="section-forth-list">
               <div class="app-photo">
                 <img
+                  class="app-container-img"
                   src="./images/Screenillu.jpg"
                   alt="Screen Illustrations"
-                  width="360"
                 />
                 <p class="app-overlay">
                   Bring Screens to Life with Illustrations &#183;
@@ -485,9 +583,9 @@
             <li class="section-forth-list">
               <div class="app-photo">
                 <img
+                  class="app-container-img"
                   src="./images/Onlinecur.jpg"
                   alt="Online Courses"
-                  width="360"
                 />
                 <p class="app-overlay">
                   Unlock Your Potential with Online Learning &#183;
@@ -600,7 +698,7 @@
       </div>
     </footer>
 
-    <div class="backdrop is-open">
+    <!-- <div class="backdrop is-open">
             <div class="modal">
                 <button type="button" class="close-button">
                     <svg class="modal-icon-close" width="8" height="8">
@@ -695,6 +793,6 @@
                     </button>
                 </form>
             </div>
-        </div>
+        </div> -->
   </body>
 </html>
