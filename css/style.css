@@ -917,7 +917,7 @@ section {
 (min-width: 768px) {
 
   .container {
-  max-width: 768px;
+ max-width: 768px;
 }
 
 .container-page-header {
@@ -1104,7 +1104,7 @@ section {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    gap: 12px;
+    gap: 40px;
   }
 
   .section-first {
@@ -1141,6 +1141,17 @@ section {
 
 .our-skills-icon {
   position: absolute;
+}
+
+.section-second-tone {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.section-second-pone {
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .section-third {
@@ -1196,6 +1207,11 @@ section {
   display: inline-block;
   margin-bottom: 16px;
 }
+
+.footer-social-title {
+  text-align: left;
+}
+
 .subbing {
 margin-top: 0;
 }
