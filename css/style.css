@@ -1012,6 +1012,10 @@ section {
   margin: 0 auto;
 }
 
+.app-overlay {
+  font-size: 16px;
+}
+
 .app-container-img {
   width: 356px;
   height: 300px;
